@@ -2,14 +2,18 @@ package date_module;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
+
 import java.util.Date;
 
 public class Java_date {
 
     public static void main(String[] args) {
+    	
         try {
+        	
             // Data atual
             Date date = new Date();
+           
             
             System.out.println("Completa: " + date);
             System.out.println("Dia da semana (0 = domingo): " + date.getDay());
